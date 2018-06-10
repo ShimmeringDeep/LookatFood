@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Look at Food</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|Eater|Freckle+Face" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Click something to see food!</span>
+        <div id="btnPlace">
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="container">
+                    <div class="row" id="gifPlace">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Look at all these foods!</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Click again to see more!</h6>
+                        <p class="card-text">If you don't like the food you see or you wanna see something else, make your own button!</p>
+
+
+                        <form>
+                            <span id="todo-item">
+                                <input id="giftext" type="text">
+                                <input id="add-gif" class="btn btn-dark" value="Moar!" type="submit">
+                            </span>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

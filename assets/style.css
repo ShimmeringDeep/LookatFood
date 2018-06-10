@@ -1,0 +1,37 @@
+body{
+    background-image: url(pics/pizzaWave.gif)
+}
+
+button{
+    margin : 2px;
+    font-family: 'Creepster', cursive;
+}
+
+.card{
+    margin-top: 15px;
+}
+
+.navbar-brand{
+    font-family: 'Eater', cursive;
+}
+.card-body{
+    font-family: 'Freckle Face', cursive;
+}
+.card-title{
+    font-family: 'Creepster', cursive;
+}
+.container{
+    background-color: rgba(35,35,35,.6)
+}
+img{
+    margin: 2px
+}
+
+#add-gif{
+    font-family: 'Eater', cursive;
+}
+
+/*
+font-family: 'Eater', cursive;
+font-family: 'Creepster', cursive;
+*/
