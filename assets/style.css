@@ -1,10 +1,10 @@
 body{
-    background-image: url(pics/pizzaWave.gif)
+    background-image: url(pics/foodBack.jpg)
 }
 
 button{
     margin : 2px;
-    font-family: 'Creepster', cursive;
+    font-family: 'Gaegu', cursive;
 }
 
 .card{
@@ -12,13 +12,13 @@ button{
 }
 
 .navbar-brand{
-    font-family: 'Eater', cursive;
+    font-family: 'Holtwood One SC', serif;
 }
 .card-body{
-    font-family: 'Freckle Face', cursive;
+font-family: 'Gaegu', cursive;
 }
 .card-title{
-    font-family: 'Creepster', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 .container{
     background-color: rgba(35,35,35,.6)
@@ -28,10 +28,10 @@ img{
 }
 
 #add-gif{
-    font-family: 'Eater', cursive;
+    font-family: 'Holtwood One SC', serif;
 }
 
 /*
-font-family: 'Eater', cursive;
-font-family: 'Creepster', cursive;
-*/
+font-family: 'Gaegu', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Holtwood One SC', serif;
